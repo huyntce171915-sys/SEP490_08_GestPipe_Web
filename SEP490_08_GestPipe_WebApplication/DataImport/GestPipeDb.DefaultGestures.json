@@ -1,0 +1,534 @@
+[{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e341"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e334"
+  },
+  "pose_label": "zoom_out",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.974,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "main_axis_x": 0,
+    "main_axis_y": 1,
+    "delta_x": -0.062817,
+    "delta_y": 0.191093
+  }
+},
+{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e33d"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e332"
+  },
+  "pose_label": "rotate_down",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.925,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "main_axis_x": 0,
+    "main_axis_y": 1,
+    "delta_x": 0,
+    "delta_y": 0.02
+  }
+},
+{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e343"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e331"
+  },
+  "pose_label": "rotate_up",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.932,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "main_axis_x": 0,
+    "main_axis_y": 1,
+    "delta_x": 0,
+    "delta_y": -0.23
+  }
+},
+{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e344"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e336"
+  },
+  "pose_label": "previous_slide",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.965,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": -0.27,
+    "delta_y": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e345"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e335"
+  },
+  "pose_label": "next_slide",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": "0.947",
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": 0.19,
+    "delta_y": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e340"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e330"
+  },
+  "pose_label": "rotate_right",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.942,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": 0.2,
+    "delta_y": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e342"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e337"
+  },
+  "pose_label": "home",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.968,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": -0.000001,
+    "delta_y": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e33e"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e32f"
+  },
+  "pose_label": "rotate_left",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.962,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": -0.2,
+    "delta_y": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e33f"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e333"
+  },
+  "pose_label": "zoom_in",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.973,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "main_axis_x": 0,
+    "main_axis_y": 1,
+    "delta_x": 0,
+    "delta_y": -0.36
+  }
+},
+{
+  "_id": {
+    "$oid": "6900843f6ae5feee2ce3e346"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "6900836d6ae5feee2ce3e338"
+  },
+  "pose_label": "end",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": "0.991",
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": -0.0001,
+    "delta_y": {
+      "$numberDouble": "-0.0"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "691ece216cbbb1a6057bc72c"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "691d5fa5e6fefbc9e960c99e"
+  },
+  "pose_label": "zoom_in_slide",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.968,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "main_axis_x": 0,
+    "main_axis_y": 1,
+    "delta_x": 0,
+    "delta_y": -0.17
+  }
+},
+{
+  "_id": {
+    "$oid": "691ece216cbbb1a6057bc72a"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "691d5effe6fefbc9e960c99c"
+  },
+  "pose_label": "start_present",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.981,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": 0.12,
+    "delta_y": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "691ece216cbbb1a6057bc72d"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "691d5fa5e6fefbc9e960c99f"
+  },
+  "pose_label": "zoom_out_slide",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.955,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "main_axis_x": 0,
+    "main_axis_y": 1,
+    "delta_x": 0,
+    "delta_y": 0.19
+  }
+},
+{
+  "_id": {
+    "$oid": "691ece216cbbb1a6057bc72b"
+  },
+  "version_id": {
+    "$oid": "69006d0f6ae5feee2ce3e2e5"
+  },
+  "gesture_type_id": {
+    "$oid": "691d5fa5e6fefbc9e960c99d"
+  },
+  "pose_label": "end_present",
+  "status": {
+    "en": "Active",
+    "vi": "Đã kích hoạt"
+  },
+  "accuracy": 0.987,
+  "created_at": {
+    "$date": "2025-10-28T07:36:44.000Z"
+  },
+  "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": -0.12,
+    "delta_y": 0
+  }
+}]

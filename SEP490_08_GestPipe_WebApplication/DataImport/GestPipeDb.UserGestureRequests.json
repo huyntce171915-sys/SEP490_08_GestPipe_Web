@@ -1,0 +1,92 @@
+[
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110001" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340001" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011001" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012001" },
+    "pose_label": "previous_slide",
+    "status": { "state": "approved" },
+    "created_at": { "$date": "2024-11-18T09:30:00Z" }
+  },
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110002" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340002" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011002" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012002" },
+    "pose_label": "next_slide",
+    "status": { "state": "pending" },
+    "created_at": { "$date": "2024-11-15T13:45:00Z" }
+  },
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110003" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340003" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011003" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012001" },
+    "pose_label": "home",
+    "status": { "state": "rejected" },
+    "created_at": { "$date": "2024-11-10T10:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110004" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340004" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011004" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012003" },
+    "pose_label": "zoom_in",
+    "status": { "state": "approved" },
+    "created_at": { "$date": "2024-11-12T14:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110005" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340005" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011005" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012001" },
+    "pose_label": "previous_slide",
+    "status": { "state": "pending" },
+    "created_at": { "$date": "2024-11-08T07:10:00Z" }
+  },
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110006" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340006" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011006" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012002" },
+    "pose_label": "next_slide",
+    "status": { "state": "approved" },
+    "created_at": { "$date": "2024-11-17T08:50:00Z" }
+  },
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110007" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340007" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011007" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012003" },
+    "pose_label": "zoom_out",
+    "status": { "state": "approved" },
+    "created_at": { "$date": "2024-11-11T11:32:00Z" }
+  },
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110008" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340008" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011008" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012002" },
+    "pose_label": "home",
+    "status": { "state": "rejected" },
+    "created_at": { "$date": "2024-11-14T16:20:00Z" }
+  },
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110009" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340009" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011009" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012003" },
+    "pose_label": "previous_slide",
+    "status": { "state": "pending" },
+    "created_at": { "$date": "2024-11-19T09:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "674050aa9b1f2c00a1110010" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340010" },
+    "user_gesture_config_id": { "$oid": "6740401a9b1f2c00c0011010" },
+    "gesture_type_id": { "$oid": "6740412b9b1f2c00c0012001" },
+    "pose_label": "home",
+    "status": { "state": "approved" },
+    "created_at": { "$date": "2024-11-21T12:30:00Z" }
+  }
+]

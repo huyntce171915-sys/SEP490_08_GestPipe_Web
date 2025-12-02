@@ -1,0 +1,114 @@
+[
+  {
+    "_id": { "$oid": "690428165f730d146968a6cf" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340001" },  
+    "gesture_type_id": { "$oid": "6900836d6ae5feee2ce3e32f" },
+    "pose_label": "rotate_left",
+    "status": { "en": "Active", "vi": "Đã kích hoạt" },
+    "accuracy": 0.96,
+    "update_at": { "$date": "2025-10-31T02:50:00.000Z" },
+    "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": -0.002566,
+    "delta_y": -0.002014
+  },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "690428165f730d146968a6d4" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340002" },  
+    "gesture_type_id": { "$oid": "6900836d6ae5feee2ce3e331" },
+    "pose_label": "rotate_up",
+    "status": { "en": "Active", "vi": "Đã kích hoạt" },
+    "accuracy": 0.975,
+    "update_at": { "$date": "2025-10-31T02:50:00.000Z" },
+    "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": -0.002566,
+    "delta_y": -0.002014
+  },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "690428165f730d146968a6ce" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340003" },  
+    "gesture_type_id": { "$oid": "6900836d6ae5feee2ce3e332" },
+    "pose_label": "rotate_down",
+    "status": { "en": "Active", "vi": "Đã kích hoạt" },
+    "accuracy": 0.95,
+    "update_at": { "$date": "2025-10-31T02:50:00.000Z" },
+    "vector_data":{
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": -0.002566,
+    "delta_y": -0.002014
+  },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "690428165f730d146968a6d0" },
+    "user_id": { "$oid": "67402f1a9b1f2c0012340004" }, 
+    "gesture_type_id": { "$oid": "6900836d6ae5feee2ce3e333" },
+    "pose_label": "zoom_in",
+    "status": { "en": "Active", "vi": "Đã kích hoạt" },
+    "accuracy": 0.924,
+    "update_at": { "$date": "2025-10-31T02:50:00.000Z" },
+    "vector_data": {
+    "fingers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "main_axis_x": 1,
+    "main_axis_y": 0,
+    "delta_x": -0.002566,
+    "delta_y": -0.002014
+  },
+    "__v": 0
+  }
+]

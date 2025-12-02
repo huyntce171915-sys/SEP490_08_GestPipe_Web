@@ -1,0 +1,428 @@
+.gesture-practice-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  color: white;
+}
+
+.practice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.practice-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.close-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.close-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.practice-content {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  padding: 20px;
+}
+
+.camera-container {
+  position: relative;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a1a1a;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.camera-canvas {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  transform: scaleX(-1); /* Mirror effect for natural feel */
+}
+
+.gesture-overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.detected-gesture {
+  background: rgba(0, 255, 0, 0.9);
+  color: black;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.3);
+  animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.confidence-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin: 8px 0 4px 0;
+  overflow: hidden;
+}
+
+.confidence-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ff4444, #ffaa00, #44ff44);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.confidence-text {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.practice-controls {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.control-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.control-buttons button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.start-button {
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+  color: white;
+}
+
+.start-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(17, 153, 142, 0.4);
+}
+
+.stop-button {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+}
+
+.stop-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 65, 108, 0.4);
+}
+
+.complete-button {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.complete-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+.practice-stats {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.practice-stats h3 {
+  margin: 0 0 15px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.stat-label {
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.stat-value {
+  font-weight: bold;
+  font-size: 18px;
+  color: #38ef7d;
+}
+
+.gesture-instructions {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.gesture-instructions h3 {
+  margin: 0 0 15px 0;
+  font-size: 18px;
+  color: #38ef7d;
+}
+
+.instruction-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  background: rgba(56, 239, 125, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #38ef7d;
+}
+
+.technical-details {
+  margin-top: 15px;
+  background: rgba(102, 126, 234, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.technical-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #667eea;
+}
+
+.technical-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  font-family: 'Courier New', monospace;
+  color: #ffffff;
+}
+
+.detailed-instruction {
+  margin-top: 10px;
+  background: rgba(255, 165, 0, 0.1);
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #ffa500;
+}
+
+.detailed-instruction p {
+  margin: 0;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.template-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  color: #00ff00;
+  font-size: 12px;
+  font-family: 'Courier New', monospace;
+}
+
+.finger-states, .motion-info {
+  margin: 2px 0;
+}
+
+.gesture-overlay .template-info {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #00ff00;
+}
+
+.session-state {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  min-width: 250px;
+}
+
+.state-info {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.state-idle {
+  color: #ff6b6b;
+}
+
+.state-recording {
+  color: #51cf66;
+}
+
+.state-processing {
+  color: #ffd43b;
+}
+
+.system-status {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 6px 8px;
+  border-radius: 4px;
+  margin: 5px 0;
+  font-size: 12px;
+  color: #e0e0e0;
+  border-left: 3px solid #6c757d;
+}
+
+.status-message {
+  background: rgba(0, 123, 255, 0.2);
+  padding: 8px;
+  border-radius: 4px;
+  margin: 5px 0;
+  border-left: 3px solid #007bff;
+}
+
+.result-message {
+  padding: 8px;
+  border-radius: 4px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.result-message.correct {
+  background: rgba(40, 167, 69, 0.2);
+  border-left: 3px solid #28a745;
+  color: #28a745;
+}
+
+.result-message.wrong {
+  background: rgba(220, 53, 69, 0.2);
+  border-left: 3px solid #dc3545;
+  color: #dc3545;
+}
+
+.recording-info {
+  background: rgba(255, 193, 7, 0.2);
+  padding: 8px;
+  border-radius: 4px;
+  margin: 5px 0;
+  border-left: 3px solid #ffc107;
+  color: #ffc107;
+}
+
+.practice-instructions {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 12px;
+  border-radius: 8px;
+  color: #90cdf4;
+  font-size: 12px;
+}
+
+.practice-instructions div {
+  margin: 3px 0;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .practice-content {
+    flex-direction: column;
+  }
+  
+  .camera-container {
+    min-height: 400px;
+  }
+  
+  .practice-controls {
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .control-buttons {
+    flex: 1;
+  }
+  
+  .practice-stats,
+  .gesture-instructions {
+    flex: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .practice-header {
+    padding: 15px;
+  }
+  
+  .practice-header h2 {
+    font-size: 20px;
+  }
+  
+  .practice-content {
+    padding: 15px;
+    gap: 15px;
+  }
+  
+  .practice-controls {
+    flex-direction: column;
+  }
+}

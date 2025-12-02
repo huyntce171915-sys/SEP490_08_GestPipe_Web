@@ -1,24 +1,29 @@
+const path = require('path');
+
 module.exports = {
   apps: [
     {
       name: "GestPipe-Backend",
-      script: "./SEP490_08_GestPipe_WebApplication/backend/server.js",
+      // Use absolute path for script
+      script: path.join(__dirname, "SEP490_08_GestPipe_WebApplication", "backend", "server.js"),
+      // Set CWD to the backend folder so relative paths inside server.js work (like .env)
+      cwd: path.join(__dirname, "SEP490_08_GestPipe_WebApplication", "backend"),
       env: {
         NODE_ENV: "production",
         PORT: 5000
       },
-      // Tự động khởi động lại khi file thay đổi (tùy chọn)
-      watch: false, 
-      // Giới hạn RAM (tùy chọn)
+      watch: false,
       max_memory_restart: '1G'
     },
     {
       name: "GestPipe-Frontend",
-      cwd: "./SEP490_08_GestPipe_WebApplication/frontend",
-      script: "npm",
-      args: "start",
+      // Use absolute path for script
+      script: path.join(__dirname, "SEP490_08_GestPipe_WebApplication", "frontend", "node_modules", "react-scripts", "scripts", "start.js"),
+      // Set CWD to frontend folder
+      cwd: path.join(__dirname, "SEP490_08_GestPipe_WebApplication", "frontend"),
       env: {
-        PORT: 3000
+        PORT: 3000,
+        BROWSER: "none"
       }
     }
   ]

@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Gestpipe.v1.20",
+    "release_name": "Stable Update",
+    "description": {
+      "text": "Major upgrade with AI gestures, bug fixes.",
+      "features": ["Improved accuracy", "AI gestures", "Bug fixes"]
+    },
+    "release_date": "2025-09-25T00:00:00.000Z",
+    "downloads": 1598,
+    "accuracy": 98,
+    "status": "Release",
+    "model_path": "/models/gestpipe_v1_20.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2025-09-20T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.19",
+    "release_name": "Stable Update 1",
+    "description": {
+      "text": "Performance improvements and bug fixes.",
+      "features": ["Performance", "Bug fixes"]
+    },
+    "release_date": "2025-08-29T00:00:00.000Z",
+    "downloads": 8000,
+    "accuracy": 98,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_19.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2025-08-05T10:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.18",
+    "release_name": "Stable Update 2",
+    "description": {
+      "text": "Cloud sync, stability fix.",
+      "features": ["Cloud sync", "Stability"]
+    },
+    "release_date": "2025-07-12T00:00:00.000Z",
+    "downloads": 998,
+    "accuracy": 98,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_18.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2025-07-12T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.17",
+    "release_name": "Stable Update 3",
+    "description": {
+      "text": "New UI released.",
+      "features": ["New UI"]
+    },
+    "release_date": "2025-06-10T00:00:00.000Z",
+    "downloads": 1598,
+    "accuracy": 98,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_17.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2025-06-10T08:00:00.000Z"
+  },
+{
+    "name": "Gestpipe.v1.16",
+    "release_name": "Legacy Patch 1",
+    "description": {
+      "text": "Minor fixes and improved startup performance.",
+      "features": ["Startup Boost", "Minor Fixes"]
+    },
+    "release_date": "2025-05-05T00:00:00.000Z",
+    "downloads": 650,
+    "accuracy": 97,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_16.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2025-05-05T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.15",
+    "release_name": "Legacy Patch 2",
+    "description": {
+      "text": "Fix gesture misdetection, improved stability.",
+      "features": ["Gesture Fix", "Stability"]
+    },
+    "release_date": "2025-04-12T00:00:00.000Z",
+    "downloads": 720,
+    "accuracy": 96,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_15.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2025-04-12T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.14",
+    "release_name": "Legacy Patch 3",
+    "description": {
+      "text": "Improved sensor mapping.",
+      "features": ["Sensor Mapping"]
+    },
+    "release_date": "2025-03-08T00:00:00.000Z",
+    "downloads": 500,
+    "accuracy": 95,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_14.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2025-03-08T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.13",
+    "release_name": "Legacy Patch 4",
+    "description": {
+      "text": "Bug fixes for motion tracking.",
+      "features": ["Motion Tracking Fix"]
+    },
+    "release_date": "2025-02-12T00:00:00.000Z",
+    "downloads": 430,
+    "accuracy": 95,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_13.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2025-02-12T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.12",
+    "release_name": "Legacy Patch 5",
+    "description": {
+      "text": "Enhanced gesture speed recognition.",
+      "features": ["Speed Recognition"]
+    },
+    "release_date": "2025-01-10T00:00:00.000Z",
+    "downloads": 480,
+    "accuracy": 94,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_12.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2025-01-10T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.11",
+    "release_name": "Early Access 1",
+    "description": {
+      "text": "First testing build with full gesture engine.",
+      "features": ["Full Engine", "Prototype Gestures"]
+    },
+    "release_date": "2024-12-05T00:00:00.000Z",
+    "downloads": 300,
+    "accuracy": 92,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_11.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2024-12-05T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.10",
+    "release_name": "Early Access 2",
+    "description": {
+      "text": "UI improvements and testing framework added.",
+      "features": ["UI", "Testing Framework"]
+    },
+    "release_date": "2024-11-10T00:00:00.000Z",
+    "downloads": 260,
+    "accuracy": 90,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_10.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2024-11-10T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.09",
+    "release_name": "Early Access 3",
+    "description": {
+      "text": "Initial gesture datasets integrated.",
+      "features": ["Dataset Integration"]
+    },
+    "release_date": "2024-10-05T00:00:00.000Z",
+    "downloads": 230,
+    "accuracy": 88,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_09.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2024-10-05T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.08",
+    "release_name": "Prototype Patch",
+    "description": {
+      "text": "Prototype gesture recognition added.",
+      "features": ["Prototype Gestures"]
+    },
+    "release_date": "2024-09-12T00:00:00.000Z",
+    "downloads": 200,
+    "accuracy": 85,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_08.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2024-09-12T08:00:00.000Z"
+  },
+  {
+    "name": "Gestpipe.v1.07",
+    "release_name": "Prototype Base",
+    "description": {
+      "text": "Base prototype system created.",
+      "features": ["Base System"]
+    },
+    "release_date": "2024-08-05T00:00:00.000Z",
+    "downloads": 150,
+    "accuracy": 82,
+    "status": "Stop",
+    "model_path": "/models/gestpipe_v1_07.bin",
+    "admin_id": "654ad681206232aa00000001",
+    "created_at": "2024-08-05T08:00:00.000Z"
+  }
+]

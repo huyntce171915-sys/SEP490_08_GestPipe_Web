@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "68f725ca965870ab2a072419"
+  },
+  "fullName": "Le Duy Loi",
+  "email": "superadmin@gestpipe.com",
+  "password": "d3535b78e24867f3c850fec1c8591b7a469b8f8683be64d835057cb9fd204aa1",
+  "temporaryPassword": null,
+  "isFirstLogin": false,
+  "isProfileCompleted": true,
+  "role": "superadmin",
+  "accountStatus": "active",
+  "theme": "dark",
+  "uiLanguage": "en",
+  "phoneNumber": "0929293167",
+  "createdAt": {
+    "$date": "2025-10-21T06:18:50.984Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-04T02:42:38.397Z"
+  },
+  "__v": 0,
+  "birthday": {
+    "$date": "2003-05-15T00:00:00.000Z"
+  },
+  "province": "Bình Thuận"
+},
+{
+  "_id": {
+    "$oid": "68f7504470c5f244257fa965"
+  },
+  "fullName": "Duy Khang",
+  "email": "khang123@fpt.edu.vn",
+  "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+  "temporaryPassword": null,
+  "isFirstLogin": false,
+  "isProfileCompleted": false,
+  "role": "admin",
+  "accountStatus": "active",
+  "theme": "dark",
+  "uiLanguage": "vi",
+  "phoneNumber": "0929293161",
+  "province": "Bình Phước",
+  "createdAt": {
+    "$date": "2025-10-21T09:20:04.761Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-22T09:42:44.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f8bced26e8b883da81c7c6"
+  },
+  "fullName": "Trung Thuc",
+  "email": "admin123@gmail.com",
+  "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+  "temporaryPassword": null,
+  "isFirstLogin": false,
+  "isProfileCompleted": false,
+  "role": "admin",
+  "accountStatus": "active",
+  "theme": "dark",
+  "uiLanguage": "vi",
+  "phoneNumber": "0923123531",
+  "province": "An Giang",
+  "createdAt": {
+    "$date": "2025-10-22T11:15:57.679Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-28T04:48:57.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69005e41b9e3d0ace1c85e0e"
+  },
+  "fullName": "Duy Khang",
+  "email": "khangldce171844@fpt.edu.vn",
+  "password": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e",
+  "temporaryPassword": null,
+  "isFirstLogin": false,
+  "isProfileCompleted": false,
+  "role": "admin",
+  "accountStatus": "active",
+  "theme": "dark",
+  "uiLanguage": "en",
+  "phoneNumber": "0929293160",
+  "province": "Vĩnh Long",
+  "resetPasswordOTP": null,
+  "resetPasswordOTPExpires": null,
+  "createdAt": {
+    "$date": "2025-10-28T06:10:09.021Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-11T04:20:56.914Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,350 @@
+[{
+  "_id": {
+    "$oid": "69070c07c37f55cfc662255c"
+  },
+  "instance_id": 1,
+  "pose_label": "rotate_down",
+  "gesture_type": "dynamic",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 1,
+  "right_finger_state_1": 1,
+  "right_finger_state_2": 0,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 0,
+  "motion_x_start": 0.624055,
+  "motion_y_start": 0.451542,
+  "motion_x_mid": 0.615109,
+  "motion_y_mid": 0.521483,
+  "motion_x_end": 0.605445,
+  "motion_y_end": 0.623617,
+  "main_axis_x": 0,
+  "main_axis_y": 1,
+  "delta_x": -0.002614,
+  "delta_y": 0.185558,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.674Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.674Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69070c07c37f55cfc662255d"
+  },
+  "instance_id": 2,
+  "pose_label": "rotate_left",
+  "gesture_type": "dynamic",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 1,
+  "right_finger_state_1": 1,
+  "right_finger_state_2": 0,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 0,
+  "motion_x_start": 0.700592,
+  "motion_y_start": 0.521203,
+  "motion_x_mid": 0.609221,
+  "motion_y_mid": 0.515263,
+  "motion_x_end": 0.530381,
+  "motion_y_end": 0.504322,
+  "main_axis_x": 1,
+  "main_axis_y": 0,
+  "delta_x": -0.130413,
+  "delta_y": -0.005325,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69070c07c37f55cfc662255e"
+  },
+  "instance_id": 3,
+  "pose_label": "zoom_in",
+  "gesture_type": "dynamic",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 1,
+  "right_finger_state_1": 1,
+  "right_finger_state_2": 1,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 0,
+  "motion_x_start": 0.579149,
+  "motion_y_start": 0.588623,
+  "motion_x_mid": 0.594609,
+  "motion_y_mid": 0.479239,
+  "motion_x_end": 0.593111,
+  "motion_y_end": 0.427196,
+  "main_axis_x": 0,
+  "main_axis_y": 1,
+  "delta_x": 0,
+  "delta_y": -0.168766,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69070c07c37f55cfc662255f"
+  },
+  "instance_id": 4,
+  "pose_label": "rotate_right",
+  "gesture_type": "dynamic",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 1,
+  "right_finger_state_1": 1,
+  "right_finger_state_2": 0,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 0,
+  "motion_x_start": 0.519356,
+  "motion_y_start": 0.513941,
+  "motion_x_mid": 0.59543,
+  "motion_y_mid": 0.5103,
+  "motion_x_end": 0.650029,
+  "motion_y_end": 0.523184,
+  "main_axis_x": 1,
+  "main_axis_y": 0,
+  "delta_x": 0.117388,
+  "delta_y": 0.04424,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69070c07c37f55cfc6622560"
+  },
+  "instance_id": 5,
+  "pose_label": "zoom_out",
+  "gesture_type": "dynamic",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 1,
+  "right_finger_state_1": 1,
+  "right_finger_state_2": 1,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 0,
+  "motion_x_start": 0.586247,
+  "motion_y_start": 0.461246,
+  "motion_x_mid": 0.583464,
+  "motion_y_mid": 0.54286,
+  "motion_x_end": 0.574318,
+  "motion_y_end": 0.653507,
+  "main_axis_x": 0,
+  "main_axis_y": 1,
+  "delta_x": -0.062817,
+  "delta_y": 0.191093,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69070c07c37f55cfc6622561"
+  },
+  "instance_id": 6,
+  "pose_label": "home",
+  "gesture_type": "static",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 1,
+  "right_finger_state_1": 0,
+  "right_finger_state_2": 0,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 0,
+  "motion_x_start": 0.589237,
+  "motion_y_start": 0.487445,
+  "motion_x_mid": 0.588898,
+  "motion_y_mid": 0.486901,
+  "motion_x_end": 0.588259,
+  "motion_y_end": 0.487556,
+  "main_axis_x": 1,
+  "main_axis_y": 0,
+  "delta_x": -0.002603,
+  "delta_y": 0.002198,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69070c07c37f55cfc6622562"
+  },
+  "instance_id": 7,
+  "pose_label": "rotate_up",
+  "gesture_type": "dynamic",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 1,
+  "right_finger_state_1": 1,
+  "right_finger_state_2": 0,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 0,
+  "motion_x_start": 0.609287,
+  "motion_y_start": 0.579126,
+  "motion_x_mid": 0.61273,
+  "motion_y_mid": 0.484454,
+  "motion_x_end": 0.611311,
+  "motion_y_end": 0.393994,
+  "main_axis_x": 0,
+  "main_axis_y": 1,
+  "delta_x": -0.093339,
+  "delta_y": -0.186964,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69070c07c37f55cfc6622564"
+  },
+  "instance_id": 8,
+  "pose_label": "previous_slide",
+  "gesture_type": "dynamic",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 0,
+  "right_finger_state_1": 1,
+  "right_finger_state_2": 1,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 0,
+  "motion_x_start": 0.673277,
+  "motion_y_start": 0.505762,
+  "motion_x_mid": 0.559976,
+  "motion_y_mid": 0.498925,
+  "motion_x_end": 0.499317,
+  "motion_y_end": 0.508579,
+  "main_axis_x": 1,
+  "main_axis_y": 0,
+  "delta_x": -0.15216,
+  "delta_y": -0.016298,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69070c07c37f55cfc6622565"
+  },
+  "instance_id": 9,
+  "pose_label": "next_slide",
+  "gesture_type": "dynamic",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 0,
+  "right_finger_state_1": 1,
+  "right_finger_state_2": 1,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 0,
+  "motion_x_start": 0.551511,
+  "motion_y_start": 0.489961,
+  "motion_x_mid": 0.628375,
+  "motion_y_mid": 0.486376,
+  "motion_x_end": 0.695994,
+  "motion_y_end": 0.489401,
+  "main_axis_x": 1,
+  "main_axis_y": 0,
+  "delta_x": 0.116381,
+  "delta_y": 0.00673,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.675Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69070c07c37f55cfc6622569"
+  },
+  "instance_id": 10,
+  "pose_label": "end",
+  "gesture_type": "static",
+  "left_finger_state_0": 0,
+  "left_finger_state_1": 0,
+  "left_finger_state_2": 0,
+  "left_finger_state_3": 0,
+  "left_finger_state_4": 0,
+  "right_finger_state_0": 0,
+  "right_finger_state_1": 0,
+  "right_finger_state_2": 0,
+  "right_finger_state_3": 0,
+  "right_finger_state_4": 1,
+  "motion_x_start": 0.616981,
+  "motion_y_start": 0.431811,
+  "motion_x_mid": 0.615352,
+  "motion_y_mid": 0.429471,
+  "motion_x_end": 0.614736,
+  "motion_y_end": 0.430074,
+  "main_axis_x": 1,
+  "main_axis_y": 0,
+  "delta_x": -0.002566,
+  "delta_y": -0.002014,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-02T07:45:11.676Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T07:45:11.676Z"
+  }
+}]

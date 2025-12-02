@@ -1,0 +1,182 @@
+[{
+  "_id": {
+    "$oid": "68fa4a26640aba0c6239cf63"
+  },
+  "title": {
+    "en": "Dự án sinh viên / Luận văn",
+    "vi": "Giảng dạy tại lớp học"
+  },
+  "category_id": {
+    "$oid": "68fa48ef5d12afb2b54f45d8"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911ac3b108636c33d17ccbb"
+  },
+  "title": {
+    "en": "Apartment / Villa Tour",
+    "vi": "Tham quan căn hộ / biệt thự"
+  },
+  "category_id": {
+    "$oid": "6911aa08108636c33d17ccab"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911ac7b108636c33d17ccbe"
+  },
+  "title": {
+    "en": "Exhibition / Museum Display",
+    "vi": "Triển lãm / Trưng bày bảo tàng"
+  },
+  "category_id": {
+    "$oid": "6911aa3d108636c33d17ccad"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fa49f4640aba0c6239cf62"
+  },
+  "title": {
+    "en": "Classroom Lecture",
+    "vi": "Giảng dạy tại lớp học"
+  },
+  "category_id": {
+    "$oid": "68fa48ef5d12afb2b54f45d8"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fa4a5e640aba0c6239cf64"
+  },
+  "title": {
+    "en": "Research / Seminar",
+    "vi": "Nghiên cứu / Hội thảo"
+  },
+  "category_id": {
+    "$oid": "68fa48ef5d12afb2b54f45d8"
+  },
+  "description": "Chủ đề vật lí hiện đại",
+  "difficulty": "Trung bình"
+},
+{
+  "_id": {
+    "$oid": "6911ac3b108636c33d17ccbc"
+  },
+  "title": {
+    "en": "3D Project Showcase",
+    "vi": "Trình diễn dự án 3D"
+  },
+  "category_id": {
+    "$oid": "6911aa08108636c33d17ccab"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911abd3108636c33d17ccb7"
+  },
+  "title": {
+    "en": "AI / Robotics Demo",
+    "vi": "Trình diễn AI / Robotics"
+  },
+  "category_id": {
+    "$oid": "68fa492a5d12afb2b54f45dc"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911abd3108636c33d17ccb8"
+  },
+  "title": {
+    "en": "Prototype / Engineering Project",
+    "vi": "Dự án chế tạo / Kỹ thuật"
+  },
+  "category_id": {
+    "$oid": "68fa492a5d12afb2b54f45dc"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911ac3b108636c33d17ccba"
+  },
+  "title": {
+    "en": "Product Demo (Car / Electronics)",
+    "vi": "Trình diễn sản phẩm (Ô tô / Điện tử)"
+  },
+  "category_id": {
+    "$oid": "6911aa08108636c33d17ccab"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911ab7b108636c33d17ccb4"
+  },
+  "title": {
+    "en": "Meeting / Report",
+    "vi": "Họp / Báo cáo"
+  },
+  "category_id": {
+    "$oid": "68fa49155d12afb2b54f45da"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911ab7b108636c33d17ccb5"
+  },
+  "title": {
+    "en": "Product Launch",
+    "vi": "Ra mắt sản phẩm"
+  },
+  "category_id": {
+    "$oid": "68fa49155d12afb2b54f45da"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911ab7b108636c33d17ccb6"
+  },
+  "title": {
+    "en": "Brand Campaign",
+    "vi": "Chiến dịch thương hiệu"
+  },
+  "category_id": {
+    "$oid": "68fa49155d12afb2b54f45da"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911abd3108636c33d17ccb9"
+  },
+  "title": {
+    "en": "Architecture / 3D Visualization",
+    "vi": "Thiết kế kiến trúc / Trình diễn 3D"
+  },
+  "category_id": {
+    "$oid": "68fa492a5d12afb2b54f45dc"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911ac7b108636c33d17ccbd"
+  },
+  "title": {
+    "en": "Art / Music Presentation",
+    "vi": "Trình diễn nghệ thuật / âm nhạc"
+  },
+  "category_id": {
+    "$oid": "6911aa3d108636c33d17ccad"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911ac7b108636c33d17ccbf"
+  },
+  "title": {
+    "en": "Investor Pitch / Financial Report",
+    "vi": "Thuyết trình đầu tư / Báo cáo tài chính"
+  },
+  "category_id": {
+    "$oid": "6911aa3d108636c33d17ccad"
+  }
+}]

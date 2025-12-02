@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "68fa49155d12afb2b54f45da"
+  },
+  "name": {
+    "en": "Business & Marketing",
+    "vi": "Kinh doanh & Tiếp thị"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911aa3d108636c33d17ccad"
+  },
+  "name": {
+    "en": "Entertainment & Others",
+    "vi": "Giải trí & Khác"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fa48ef5d12afb2b54f45d8"
+  },
+  "name": {
+    "en": "Education & Academic",
+    "vi": "Giáo dục & Học thuật"
+  }
+},
+{
+  "_id": {
+    "$oid": "6911aa08108636c33d17ccab"
+  },
+  "name": {
+    "en": "Showroom & Real Estate",
+    "vi": "Phòng trưng bày & Bất động sản"
+  }
+},
+{
+  "_id": {
+    "$oid": "68fa492a5d12afb2b54f45dc"
+  },
+  "name": {
+    "en": "Technology & Design",
+    "vi": "Công nghệ & Thiết kế"
+  }
+}]
