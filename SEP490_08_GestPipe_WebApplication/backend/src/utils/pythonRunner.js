@@ -32,6 +32,8 @@ if (!PYTHON_BIN || !fs.existsSync(PYTHON_BIN)) {
   PYTHON_BIN = PYTHON_BIN || 'python.exe';
 }
 
+console.log(`[pythonRunner] Selected Python Interpreter: ${PYTHON_BIN}`);
+
 const runPythonScript = (scriptName, args, workingDir) => {
   return new Promise((resolve, reject) => {
     // console.log(

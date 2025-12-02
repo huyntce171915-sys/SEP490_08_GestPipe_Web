@@ -5,6 +5,7 @@ const http = require('http');
 const socketIo = require('socket.io');
 const { PythonShell } = require('python-shell');
 const connectDB = require('./src/config/db');
+const { PYTHON_BIN } = require('./src/utils/pythonRunner');
 
 // Connect to Database
 connectDB();
@@ -71,7 +72,7 @@ app.post('/api/test-predict', async (req, res) => {
     const results = await new Promise((resolve, reject) => {
       const pyshell = new PythonShell(scriptPath, {
         mode: 'json',
-        pythonPath: 'python',
+        pythonPath: PYTHON_BIN,
         pythonOptions: ['-u'],
         scriptPath: __dirname  // Set working directory to backend root
       });
@@ -109,8 +110,15 @@ io.on('connection', (socket) => {
     console.log('Starting practice session:', data);
     // Start Python process for gesture recognition
     const { spawn } = require('child_process');
-    const pythonProcess = spawn('python', [
-      'd:/DO_AN/python_mediapipe/hybrid_realtime_pipeline/web_gesture_processor.py',
+    
+    // Fix: Use configured PYTHON_BIN and correct path
+    const path = require('path');
+    const scriptPath = path.resolve(__dirname, '../../hybrid_realtime_pipeline/web_gesture_processor.py');
+    
+    console.log(`[Socket] Spawning python: ${PYTHON_BIN} ${scriptPath}`);
+    
+    const pythonProcess = spawn(PYTHON_BIN, [
+      scriptPath,
       data.gestureName
     ], { stdio: ['pipe', 'pipe', 'pipe'] });
 
