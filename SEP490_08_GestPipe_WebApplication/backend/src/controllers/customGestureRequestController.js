@@ -8,6 +8,9 @@ const CustomGestureRequest = require('../models/CustomGestureRequest');
 const AdminGestureRequest = require('../models/AdminGestureRequest');
 const { runPythonScript } = require('../utils/pythonRunner');
 
+const BACKEND_SERVICES_DIR = path.resolve(__dirname, '..', '..', 'services');
+const ROOT_DIR = path.resolve(__dirname, '..', '..', '..', '..');
+
 const PIPELINE_CODE_DIR = path.resolve(
   __dirname,
   '..',
@@ -141,6 +144,8 @@ exports.approveRequest = async (req, res) => {
 
   requestDoc.status = 'processing';
   await requestDoc.save();
+
+  const artifactPaths = buildArtifactPaths(requestDoc.adminId);
 
   try {
     // Step 0: Check if user data exists on Google Drive

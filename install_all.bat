@@ -31,6 +31,26 @@ cd SEP490_08_GestPipe_WebApplication\frontend
 call npm install
 cd ..\..
 
+:: 5. Setup Environment Files
+echo.
+echo [5/5] Setting up Environment Files...
+if exist ".env" (
+    echo Copying .env to backend...
+    copy /Y ".env" "SEP490_08_GestPipe_WebApplication\backend\.env"
+) else (
+    echo [WARNING] .env file not found in root!
+)
+
+if exist "credentials.json" (
+    echo Copying credentials.json to backend services...
+    copy /Y "credentials.json" "SEP490_08_GestPipe_WebApplication\backend\services\credentials.json"
+)
+
+if exist "token.json" (
+    echo Copying token.json to backend services...
+    copy /Y "token.json" "SEP490_08_GestPipe_WebApplication\backend\services\token.json"
+)
+
 echo.
 echo ===================================================
 echo      INSTALLATION COMPLETE!
