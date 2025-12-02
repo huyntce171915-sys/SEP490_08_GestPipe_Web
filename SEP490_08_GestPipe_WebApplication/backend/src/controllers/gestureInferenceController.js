@@ -3,9 +3,7 @@ const path = require('path');
 const { spawn } = require('child_process');
 
 const PYTHON_BIN = process.env.PYTHON_BIN || 'python';
-const PIPELINE_ROOT =
-  process.env.PIPELINE_ROOT ||
-  path.resolve(__dirname, '../../../hybrid_realtime_pipeline');
+const PIPELINE_ROOT = path.resolve(__dirname, '../../../../hybrid_realtime_pipeline');
 
 const MODELS_DIR = path.join(PIPELINE_ROOT, 'models');
 

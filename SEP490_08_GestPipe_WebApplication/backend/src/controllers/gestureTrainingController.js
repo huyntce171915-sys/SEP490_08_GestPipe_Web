@@ -13,9 +13,7 @@ let activeRunId = null;
 let cancellationRequested = false;
 
 const PYTHON_BIN = process.env.PYTHON_BIN || 'python';
-const PIPELINE_ROOT =
-  process.env.PIPELINE_ROOT ||
-  path.resolve(__dirname, '../../../hybrid_realtime_pipeline');
+const PIPELINE_ROOT = path.resolve(__dirname, '../../../../hybrid_realtime_pipeline');
 // Use original training script
 const TRAIN_SCRIPT = path.join(PIPELINE_ROOT, 'train_motion_svm_all_models.py');
 const RESULTS_DIR = path.join(PIPELINE_ROOT, 'training_results');

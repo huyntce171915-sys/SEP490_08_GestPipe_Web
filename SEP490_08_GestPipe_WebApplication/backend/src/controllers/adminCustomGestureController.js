@@ -165,9 +165,8 @@ exports.approveRequest = async (req, res) => {
       const fs = require('fs/promises');
       const { runPythonScript } = require('../utils/pythonRunner');
 
-      // Use PIPELINE_ROOT from env or resolve relative path
-      const PIPELINE_ROOT = process.env.PIPELINE_ROOT || path.resolve(__dirname, '../../../..', 'hybrid_realtime_pipeline');
-      console.log('[approveRequest] process.env.PIPELINE_ROOT:', process.env.PIPELINE_ROOT);
+      // Resolve relative path to pipeline root
+      const PIPELINE_ROOT = path.resolve(__dirname, '../../../..', 'hybrid_realtime_pipeline');
       console.log('[approveRequest] PIPELINE_ROOT:', PIPELINE_ROOT);
       const PIPELINE_CODE_DIR = path.join(PIPELINE_ROOT, 'code');
       console.log('[approveRequest] PIPELINE_CODE_DIR:', PIPELINE_CODE_DIR);
